@@ -1,0 +1,129 @@
+
+.logo{
+    display: block;
+    width: 100px;
+    height: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+@media (min-width:768px){
+    .logo{
+        width: 150px;
+    }
+}
+
+.m-menu{
+    display: none;
+    /* Boostrap flex */
+    display: flex;
+    /* 靠右對齊 */
+    justify-content:end;
+    /* 垂直對齊 */
+    align-items:center;
+    padding-left: 0;
+    list-style: none;
+    height: 100%;
+    margin-bottom: 0%;
+    /* 取消UL的預設屬性 */
+}
+.m-menu li{
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.m-menu li a{
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: rgb(4, 98, 180);
+    font-size: 1.2rem;
+}
+
+.img-fluid{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/* banner */
+.banner{
+    position: relative;
+}
+.banner-box{
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* 將中心點改為文字中央 */
+    z-index: 10;
+    background: transparent;
+    /* 背景透明 */
+}
+
+.banner-box .title{
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(0,0,0,75);
+}
+
+.box-mb{
+    margin-bottom: 20px;
+}
+
+/* button */
+.btn-1{
+    color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    /* 圓角 */
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+}
+.btn-b{
+    color: black;
+    border: 1px solid #000000;
+}
+
+.blogs{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+}
+.text{
+    margin-left: 50px;
+}
+
+.contact{
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+}
+.btn-c{
+    margin-top: 25px;
+    margin-bottom: 23px;
+    margin-left: 500px;
+}
+.course-img{
+    padding-left: 50px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+.img-course{
+    height: 150px;
+    width: 150px;
+}
+
+.course-img img{
+    border-radius: 50%;
+    box-shadow: 0 7px 7px rgba(0, 0, 0, .2);
+}
+
+.course-img.course-size{
+    padding: 0px;
+}
