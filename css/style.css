@@ -1,19 +1,19 @@
-
+.bg-b{
+    background: #000;
+    padding: 20px;
+}
 .logo{
     display: block;
     width: 100px;
     height: auto;
-    padding-top: 25px;
-    padding-bottom: 25px;
+
 }
 @media (min-width:768px){
     .logo{
         width: 150px;
     }
 }
-
 .m-menu{
-    display: none;
     /* Boostrap flex */
     display: flex;
     /* 靠右對齊 */
@@ -25,19 +25,23 @@
     height: 100%;
     margin-bottom: 0%;
     /* 取消UL的預設屬性 */
-}
+    }
+
 .m-menu li{
     padding-left: 15px;
     display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
 }
-
+    
 .m-menu li a{
     display: block;
     padding: 12px 20px;
     text-decoration: none;
-    color: rgb(4, 98, 180);
-    font-size: 1.2rem;
+
 }
+
+
 
 .img-fluid{
     display: block;
@@ -71,7 +75,10 @@
 .box-mb{
     margin-bottom: 20px;
 }
-
+/* box 最新菜單 */
+.box{
+    padding-top: 25px;
+}
 /* button */
 .btn-1{
     color: #ffffff;
@@ -83,12 +90,23 @@
     border: 1px solid #ffffff;
 }
 .btn-b{
-    color: black;
+    padding: 10px 30px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 50px;
     border: 1px solid #000000;
 }
 
+@media (min-width:768px){
+    .btn-b{
+        display: inline-block;
+    }
+}
+.text-center{
+    text-align: center;
+    padding-top: 25px;
+}
 .blogs{
-    margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
     color: rgb(0, 0, 0);
@@ -98,30 +116,34 @@
     margin-left: 50px;
 }
 
-.contact{
-    margin-top: 50px;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-size: 2rem;
+.box-pad{
+    padding: 70px 0;
 }
-.btn-c{
-    margin-top: 25px;
-    margin-bottom: 23px;
-    margin-left: 500px;
-}
-.course-img{
-    padding-left: 50px;
-    padding-top: 50px;
-    margin-bottom: 30px;
-}
-.img-course{
-    height: 150px;
-    width: 150px;
+.bg-color{
+    background: #000000;
 }
 
+.contact{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+/* 聯絡我們icon 手機 */
+.course-img{
+    display: none;
+}
 .course-img img{
     border-radius: 50%;
     box-shadow: 0 7px 7px rgba(0, 0, 0, .2);
+}
+/* 聯絡我們icon 電腦 */
+@media (min-width:768px){
+    .course-img{
+        display: block;
+        padding-left: 50px;
+        padding-top: 50px;
+        margin-bottom: 30px;
+    }
 }
 
 .course-img.course-size{
