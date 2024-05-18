@@ -1,0 +1,54 @@
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+/* banner */
+.banner{
+    position: relative;
+}
+
+.banner-box{
+    display: block;
+    padding: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+
+@media(min-width:768px){
+    .banner-box{
+        position: absolute;
+        width: 80%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        /* 將中心點改為文字中央 */
+        z-index: 10;
+        background: transparent;
+        /* 背景透明 */
+    }
+
+    .banner-box .title{
+        font-size: 4rem;
+        text-shadow: 0 0 10px rgba(0,0,0,1);
+    }
+}
+
+.banner-box .title{
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(0,0,0,0.25);
+}
+
+.box-mb{
+    margin-bottom: 20px;
+}
+
+/* text */
+.text{
+    padding: 15px;
+}
+.text-center{
+    text-align: center;
+}
