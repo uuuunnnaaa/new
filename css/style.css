@@ -25,7 +25,7 @@
     height: auto;
 
 }
-C
+
 /* 手機板menu開關 toggle */
 .toggle{
     display: flex;
@@ -99,7 +99,11 @@ C
     }
 }
 
-
+.img-fluid{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 
 /* banner */
 .banner{
