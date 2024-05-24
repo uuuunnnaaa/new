@@ -1,9 +1,11 @@
-import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-about',
   standalone: true,
-  imports: [],
+  imports: [RouterLink,CommonModule],
   templateUrl: './about.component.html',
   styleUrl: './about.component.css'
 })

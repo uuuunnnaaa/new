@@ -1,0 +1,75 @@
+/* banner */
+.banner{
+  position: relative;
+}
+.banner-box{
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  /* 將中心點改為文字中央 */
+  z-index: 10;
+  background: transparent;
+  /* 背景透明 */
+}
+
+.banner-box .title{
+  color: #ffffff;
+  margin-top: 20px;
+  font-size: 4rem;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(0,0,0,75);
+}
+
+/* NEWS */
+.box{
+  padding-top: 25px;
+}
+.text-center{
+  text-align: center;
+  padding-top: 25px;
+}
+.blogs{
+  margin-bottom: 50px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+}
+.text{
+  margin-left: 50px;
+}
+
+.box-pad{
+  padding: 70px 0;
+}
+.bg-color{
+  background: #000000;
+}
+
+/* CONTACT */
+.contact{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+}
+.course-img{
+  display: none;
+}
+.course-img img{
+  border-radius: 50%;
+  box-shadow: 0 7px 7px rgba(0, 0, 0, .2);
+}
+/* 聯絡我們icon 電腦 */
+@media (min-width:768px){
+  .course-img{
+      display: block;
+      padding-left: 50px;
+      padding-top: 50px;
+      margin-bottom: 30px;
+  }
+}
+
+.course-img.course-size{
+  padding: 0px;
+}
