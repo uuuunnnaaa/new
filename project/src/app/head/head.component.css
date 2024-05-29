@@ -60,6 +60,9 @@
   display: block;
   background: #000;
   border-bottom: 1px solid #ffffff;
+
+}
+.menu-list li a{
   display: block;
   padding: 15px 20px;
   color: #ffffff;
@@ -91,12 +94,13 @@
   .d-menu li{
   padding-left: 15px;
   display: inline-block;
-  color: rgb(255, 255, 255);
-  font-size: 1.2rem;
+
   }
 
   .d-menu li a{
   display: block;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
   padding: 12px 20px;
   text-decoration: none;
   }
