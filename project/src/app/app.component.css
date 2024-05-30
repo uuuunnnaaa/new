@@ -1,0 +1,108 @@
+/* head */
+.m-head{
+  display: block;
+}
+.d-head{
+  display: none;
+}
+@media (min-width:768px){
+  .m-head{
+      display: none;
+  }
+  .d-head{
+      display: block;
+  }
+}
+.bg-b{
+  background: #000;
+  padding: 20px;
+}
+
+/* logo */
+.logo{
+  display: block;
+  width: 80px;
+  height: auto;
+}
+@media (min-width:768px){
+    .logo{
+      width: 100px;
+    }
+}
+/* 手機板menu開關 toggle */
+.toggle{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.toggle span{
+  display: block;
+  right: 0;
+  top: 0;
+  width: 40px;
+  height: 5px;
+  margin-bottom: 8px;
+  background: #ffffff;
+}
+.toggle span:nth-last-child(1){
+  margin-bottom: 0;
+}
+/* 手機版 menu */
+/* list */
+.menu-list{
+  list-style: none;
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 0;
+}
+.menu-list li{
+  position: relative;
+  display: block;
+  background: #000;
+  border-bottom: 1px solid #ffffff;
+
+}
+.menu-list li a{
+  display: block;
+  padding: 15px 20px;
+  color: #ffffff;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+.menu-list li:nth-last-child(1){
+  border-bottom: 0;
+}
+@media (min-width:768px){
+  .menu-list{
+      display: none;
+  }
+  /* 電腦版 menu */
+  .d-menu{
+  /* Boostrap flex */
+  display: flex;
+  /* 靠右對齊 */
+  justify-content:end;
+  /* 垂直對齊 */
+  align-items:center;
+  padding-left: 0;
+  list-style: none;
+  height: 100%;
+  margin-bottom: 0%;
+  /* 取消UL的預設屬性 */
+  }
+
+  .d-menu li{
+  padding-left: 15px;
+  display: inline-block;
+
+  }
+
+  .d-menu li a{
+  display: block;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  padding: 12px 20px;
+  text-decoration: none;
+  }
+
+}

@@ -11,4 +11,5 @@ import { ActivatedRoute, RouterLink } from '@angular/router';
 })
 export class AboutComponent {
   LOGO = '../assets/logo2.png'
+  Banner = '../assets/about_banner4.jpg'
 }

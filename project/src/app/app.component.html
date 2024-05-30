@@ -1,3 +1,51 @@
-<app-head></app-head>
-<app-home></app-home>
+<!-- m-head -->
+<header class="m-head bg-b">
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <a routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+          <img [src]=LOGO alt="" class="logo">
+        </a>
+      </div>
+      <div class="col-6 toggle">
+          <div class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="menu-content bg-ctbc">
+  <div class="container">
+    <div class="row">
+        <ul class="menu-list">
+            <li><a routerLink="/about" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">關於我們</a></li>
+            <li><a routerLink="/news" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">最新公告</a></li>
+            <li><a routerLink="/contact" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">聯絡我們</a></li>
+        </ul>
+    </div>
+  </div>
+</div>
+<!-- d-head -->
+<div class="d-head bg-b">
+  <div class="container nav-space">
+      <div class="row align-items-center">
+          <div class="col-3">
+            <a routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+              <img [src]=LOGO alt="" class="logo">
+            </a>
+          </div>
+          <div class="col-9">
+              <ul class="d-menu">
+                  <li><a routerLink="/about" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">關於我們</a></li>
+                  <li><a routerLink="/news" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">最新公告</a></li>
+                  <li><a routerLink="/contact" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">聯絡我們</a></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</div>
+
 <router-outlet></router-outlet>

@@ -12,4 +12,12 @@ import { RouterLink, RouterOutlet } from '@angular/router';
 })
 export class HomeComponent {
   Banner = '../assets/banner.jpg'
+  Img1 = '../assets/food1.jpg'
+  Img2 = '../assets/food2.jpg'
+  Img3 = '../assets/food3.jpg'
+  Img4 = '../assets/food4.jpg'
+  Img5 = '../assets/phone-icon.png'
+  Img6 = '../assets/location-icon.png'
+  Img7 = '../assets/twitter-icon.png'
+  Img8 = '../assets/email-icon.png'
 }

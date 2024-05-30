@@ -3,7 +3,7 @@
   <img src={{Banner}} class="img-fluid">
   <div class="banner-box">
        <h1 class="title box-mb">關於我們</h1>
-       <a [routerLink]="['/about']" class="btn-1">MORE</a>
+       <a routerLink="/about" class="btn-1">MORE</a>
    </div>
 </div>
 <!-- news/blog -->
@@ -20,7 +20,7 @@
           <div class="col-md-6 col-xl-3 plr-0">
               <div class="box">
                   <div class="box-img">
-                      <img src="img/food1.jpg" alt="" class="img-fluid">
+                      <img src={{Img1}} alt="" class="img-fluid">
                   </div>
                   <div class="box-body">
                       <h5 class="color-blue text-center">
@@ -32,7 +32,7 @@
            <div class="col-md-6 col-xl-3 plr-0">
               <div class="box">
                   <div class="box-img">
-                      <img src="img/food2.jpg" alt="" class="img-fluid">
+                      <img src={{Img2}} alt="" class="img-fluid">
                   </div>
                   <div class="box-body">
                       <h5 class="color-blue text-center">
@@ -44,7 +44,7 @@
            <div class="col-md-6 col-xl-3 plr-0">
               <div class="box">
                   <div class="box-img">
-                      <img src="img/food3.jpg" alt="" class="img-fluid">
+                      <img src={{Img3}} alt="" class="img-fluid">
                   </div>
                   <div class="box-body">
                       <h5 class="color-blue text-center">
@@ -56,7 +56,7 @@
            <div class="col-md-6 col-xl-3 plr-0">
               <div class="box">
                   <div class="box-img">
-                      <img src="img/food4.jpg" alt="" class="img-fluid">
+                      <img src={{Img4}} alt="" class="img-fluid">
                   </div>
                   <div class="box-body">
                       <h5 class="color-blue text-center">
@@ -67,33 +67,33 @@
            </div>
       </div>
       <div class="text-center">
-          <a href="#" class="btn-1 btn-b">MORE</a>
+          <a routerLink="/news" class="btn-1 btn-b">MORE</a>
       </div>
   </div>
 </div>
 <!-- contact -->
 <div class="bg-color box-pad">
-  <div class="coniner">
+  <div class="container">
       <div class="row">
           <div class="col-md-10 col-xl-8 mx-auto">
               <h4 class="contact">聯絡我們</h4>
               <div class="row">
                   <div class="col-md-3 course-img">
-                      <img src="img/phone-icon.png" alt="" class="">
+                      <img src={{Img5}} alt="" class="">
                   </div>
                   <div class="col-md-3 course-img">
-                      <img src="img/email-icon.png" alt="" class="">
+                      <img src={{Img6}} alt="" class="">
                   </div>
                   <div class="col-md-3 course-img">
-                      <img src="img/twitter-icon.png" alt="" class="">
+                      <img src={{Img7}} alt="" class="">
                   </div>
                    <div class="col-md-3 course-img">
-                       <img src="img/location-icon.png" alt="" class="">
+                       <img src={{Img8}} alt="" class="">
                   </div>
               </div>
           </div>
           <div class="text-center">
-              <a href="#" class="btn-1 btn-m">MORE</a>
+              <a routerLink="/contact" class="btn-1 btn-m">MORE</a>
           </div>
       </div>
   </div>
