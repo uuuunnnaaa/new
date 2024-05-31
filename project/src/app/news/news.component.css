@@ -1,9 +1,120 @@
+.d-back{
+  display: none;
+}
+
+.m-back{
+  list-style: none;
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 0;
+}
+.m-back li{
+  display: block;
+  border-bottom: 1px solid #dadada;
+}
+.m-back li a{
+  display: block;
+  color: black;
+  padding: 15px 15px;
+  font-size: 2rem;
+  text-decoration: none;
+}
+.m-back li:hover{
+  background: #c20202;
+  /* border-bottom: 1px solid #000000; */
+
+}
+.m-back li a:hover{
+  color: #ffffff;
+}
+@media (min-width:768px){
+  .m-back{
+    display: none;
+  }
+  .d-back{
+    display: block;
+    list-style: none;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0;
+  }
+  .d-back li{
+    display: block;
+    border-bottom: 1px solid #dadada;
+  }
+  .d-back li a{
+    display: block;
+    color: black;
+    padding: 15px 15px;
+    font-size: 2rem;
+    text-decoration: none;
+  }
+  .d-back li:hover{
+    background: #c20202;
+    /* border-bottom: 1px solid #000000; */
+
+  }
+  .d-back li a:hover{
+    color: #ffffff;
+  }
+}
+
+
+.Map{
+  padding-top: 10px;
+  list-style: none;
+  height: 100%;
+  margin-bottom: 0%;
+}
+
+.Map li{
+  display: inline-block;
+}
+
+  .Map li a{
+  display: block;
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+  padding: 12px 12px;
+  text-decoration: none;
+}
+.Map li:hover{
+  background: #000000;
+  /* border-bottom: 1px solid #000000; */
+
+}
+.Map li a:hover{
+  color: #ffffff;
+}
+
+@media (min-width:768px){
+  .Map{
+    list-style: none;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0;
+  }
+  .Map li{
+    display: block;
+    border-bottom: 1px solid #dadada;
+  }
+  .Map li a{
+    display: block;
+    color: black;
+    padding: 15px 15px;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+}
+
 
 .box{
   padding: 10px;
-
 }
 .box-img{
   padding-top: 10px;
 }
 
+.CtFooter__time{
+  padding-top: 20px;
+}

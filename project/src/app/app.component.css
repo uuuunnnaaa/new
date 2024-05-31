@@ -72,6 +72,14 @@
 .menu-list li:nth-last-child(1){
   border-bottom: 0;
 }
+.menu-list li:hover{
+  background: #ffffff;
+  border-bottom: 1px solid #000000;
+
+}
+.menu-list li a:hover{
+  color: #000;
+}
 @media (min-width:768px){
   .menu-list{
       display: none;
@@ -92,7 +100,6 @@
   }
 
   .d-menu li{
-  padding-left: 15px;
   display: inline-block;
 
   }
@@ -101,8 +108,15 @@
   display: block;
   color: rgb(255, 255, 255);
   font-size: 1.2rem;
-  padding: 12px 20px;
+  padding: 12px 12px;
   text-decoration: none;
   }
+  .d-menu li:hover{
+    background: #ffffff;
+    /* border-bottom: 1px solid #000000; */
 
+  }
+  .d-menu li a:hover{
+    color: #000;
+  }
 }

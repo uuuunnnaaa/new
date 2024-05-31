@@ -20,4 +20,8 @@ export class HomeComponent {
   Img6 = '../assets/location-icon.png'
   Img7 = '../assets/twitter-icon.png'
   Img8 = '../assets/email-icon.png'
+  News1 = '../assets/news1.jpg'
+  News2 = '../assets/news2.jpg'
+  News3 = '../assets/news3.jpg'
+  News4 = '../assets/news4.jpg'
 }

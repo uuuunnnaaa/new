@@ -1,0 +1,63 @@
+.icon-png{
+  width: 50px;
+}
+.box{
+  display: inline;
+  padding: 20px;
+  line-height: 20px;
+  color: #000000;
+  border-radius: 10px;
+  width: 250px;
+  height: 150px;
+}
+
+.d-back{
+  display: block;
+  list-style: none;
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 0;
+}
+.d-back li{
+  display: block;
+  border-bottom: 1px solid #dadada;
+}
+.d-back li a{
+  display: block;
+  color: black;
+  padding: 15px 15px;
+  font-size: 2rem;
+  text-decoration: none;
+}
+.d-back li:hover{
+  background: #c20202;
+  /* border-bottom: 1px solid #000000; */
+
+}
+.d-back li a:hover{
+  color: #ffffff;
+}
+
+.bg-b{
+  background: #000;
+  padding: 20px;
+}
+
+.logo{
+  display: block;
+  width: 80px;
+  height: auto;
+}
+@media (min-width:768px){
+    .logo{
+      width: 100px;
+    }
+}
+
+.app{
+  display: flex;
+  /* 靠右對齊 */
+  justify-content:end;
+  /* 垂直對齊 */
+  align-items:center;
+}
