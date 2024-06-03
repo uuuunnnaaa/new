@@ -24,4 +24,6 @@ export class HomeComponent {
   News2 = '../assets/news2.jpg'
   News3 = '../assets/news3.jpg'
   News4 = '../assets/news4.jpg'
+
+  banner = '../assets/banner.png'
 }

@@ -16,7 +16,7 @@ import { ContactComponent } from './contact/contact.component';
 export class AppComponent {
   title = 'project';
   LOGO = '../assets/logo2.png'
-
+  banner = '../assets/banner.png'
 
 
 }

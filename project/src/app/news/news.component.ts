@@ -43,5 +43,6 @@ updateCategory(category: string | null): void {
   this.currentCategory = category;
 }
 
+banner = '../assets/banner.png'
 
 }
